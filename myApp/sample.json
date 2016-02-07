@@ -1,0 +1,29 @@
+{
+  "tokens":[
+	"DEV-e4e4768a-e21f-44b1-8d70-fb7360a45cd1"
+  ],
+
+  "notification":{
+    "alert":"Hello World!",
+    "ios":{
+      "badge":1,
+      "sound":"ping.aiff",
+      "expiry": 1423238641,
+      "priority": 10,
+      "contentAvailable": 1,
+      "payload":{
+        "key1":"value",
+        "key2":"value"
+      }
+    },
+    "android":{
+      "collapseKey":"foo",
+      "delayWhileIdle":true,
+      "timeToLive":300,
+      "payload":{
+        "key1":"value",
+        "key2":"value"
+      }
+    }
+  }
+}
